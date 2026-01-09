@@ -147,6 +147,24 @@ cc_prebuilt_binary {
 	soc_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "vendor.dolby.hardware.dms@2.0-service.xml",
+	owner: "xiaomi",
+	src: "vendor.dolby.hardware.dms@2.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.dolby.media.c2.xml",
+	owner: "xiaomi",
+	src: "vendor.dolby.media.c2.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
 cc_prebuilt_library_shared {
 	name: "libcodec2_soft_ac4dec",
 	owner: "xiaomi",
